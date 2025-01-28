@@ -1,0 +1,15 @@
+<svg
+  fill="none"
+  height="12"
+  style="transform: rotate(180deg)"
+  viewBox="0 0 8 12"
+  width="8"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M6.75 1.4165L2.16667 5.99984L6.75 10.5832"
+    stroke="#f3f3f3"
+    stroke-linecap="round"
+    stroke-width="1.8"
+  />
+</svg>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no"
+      name="viewport"
+    />
+    <title>WPTGo Play - Game</title>
+    <meta content="WPTGo - Play - Game" name="description" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <iframe id="game-frame"></iframe>
+    <div id="loading"></div>
+    <div class="closed transition" id="side-panel">
+      <div id="open-drawer">
+        <img alt="right arrow" src="/img/chevron-right.svg" />
+      </div>
+      <div class="flex pad flex-col" id="side-panel-content">
+        <div
+          class="flex space-between items-center"
+          id="side-panel-content-header"
+        >
+          <h4>Menu</h4>
+          <div id="close-drawer">
+            <img alt="right arrow" src="/img/chevron-left.svg" />
+          </div>
+        </div>
+        <div class="pad">
+          <div class="item" id="exit">
+            <img alt="right arrow" src="/img/close.svg" />
+            <span class="text">Leave</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
