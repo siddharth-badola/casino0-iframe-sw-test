@@ -26,7 +26,7 @@ module.exports = merge(common, {
     proxy: [
       {
         context: ["/api"],
-        target: new URL(atob(process.env.API_URL)).origin,
+        target: process.env.API_URL,
         changeOrigin: true,
       },
     ],
